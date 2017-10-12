@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server --hot",
     "lint": "./node_modules/.bin/eslint **/*.{js,jsx}"
   },
   "dependencies": {
