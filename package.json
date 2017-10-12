@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "lint": "./node_modules/.bin/eslint **/*.{js,jsx}"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2",
+    "webpack": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.1.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-flow": "^2.29.1",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "flow-bin": "^0.56.0",
+    "jest": "^21.2.1",
+    "jest-serializer-enzyme": "^1.0.0",
+    "prettier": "^1.7.4",
+    "react-hot-loader": "^3.0.0",
+    "react-test-renderer": "^16.0.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "name": "mario-sanchez",
+  "version": "0.1.0",
+  "description": "My personal web page :)",
+  "repository": "git@github.com:btholt/complete-intro-to-react.git",
+  "author": "Mario Sánchez <mr.mario.sm@gmail.com>",
+  "license": "MIT"
+}
