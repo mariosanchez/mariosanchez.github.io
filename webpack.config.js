@@ -1,4 +1,5 @@
 const path = require('path');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const config = {
   context: __dirname,
@@ -6,19 +7,19 @@ const config = {
   devtool: 'eval-source-map',
   output: {
     path: path.join(__dirname, 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   devServer: {
     publicPath: '/public/',
-    historyApiFallback: true
+    historyApiFallback: true,
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json']
+    extensions: ['.js', '.jsx', '.json'],
   },
   stats: {
     colors: true,
     resons: true,
-    chunks: true
+    chunks: true,
   },
   module: {
     rules: [
@@ -26,14 +27,27 @@ const config = {
         enforce: 'pre',
         test: /\.jsx?$/,
         loader: 'eslint-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader'
-      }
-    ]
-  }
+        loader: 'babel-loader',
+      },
+      {
+        test: /\.scss$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'postcss-loader', 'sass-loader'],
+        }),
+      },
+    ],
+  },
+  plugins: [
+    new ExtractTextPlugin({
+      filename: 'app.css',
+      disable: process.env.NODE_ENV === 'development',
+    }),
+  ],
 };
 
 module.exports = config;
