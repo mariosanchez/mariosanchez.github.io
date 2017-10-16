@@ -4,8 +4,11 @@
 @import '~bootstrap/scss/mixins';
 @import '~bootstrap/scss/grid';
 
+@import 'fonts';
+
 .app {
   h1 {
+    font-family: 'Press Start 2P';
     color: white;
   }
   text-shadow: 1px 1px 1px black;
