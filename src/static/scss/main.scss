@@ -1,3 +1,9 @@
+// Bootstrap deps
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/grid';
+
 .app {
   h1 {
     color: white;
