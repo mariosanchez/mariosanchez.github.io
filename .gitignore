@@ -1,3 +1,5 @@
-public/
+public/bundle.js
+public/app.css
+public/fonts/*
 node_modules/
 yarn-error.log

@@ -5,9 +5,9 @@
   font-weight: 400;
   src: url('../fonts/press-start-2p-v6-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Press Start 2P Regular'), local('PressStart2P-Regular'),
-    url('../fonts/press-start-2p-v6-latin-regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/press-start-2p-v6-latin-regular.woff2') format('woff2'),
-    url('../fonts/press-start-2p-v6-latin-regular.woff') format('woff'),
-    url('../fonts/press-start-2p-v6-latin-regular.ttf') format('truetype'),
-    url('../fonts/press-start-2p-v6-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
+    url('/public/fonts/press-start-2p-v6-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/press-start-2p-v6-latin-regular.woff2') format('woff2'),
+    url('/public/fonts/press-start-2p-v6-latin-regular.woff') format('woff'),
+    url('/public/fonts/press-start-2p-v6-latin-regular.ttf') format('truetype'),
+    url('/public/fonts/press-start-2p-v6-latin-regular.svg#PressStart2P') format('svg'); /* Legacy iOS */
 }

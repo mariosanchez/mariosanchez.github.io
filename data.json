@@ -1,6 +1,18 @@
 {
-  "skills": {
-    "name": "",
-    "logo": ""
-  }
+  "hobbies": [
+    "🍺 Craft beer",
+    "🥄 Homebrewing",
+    "✏️ Drawing",
+    "🍲 Food",
+    "💻 Tech",
+    "🎮 Videogames",
+    "👨‍💻 Programming",
+    "👺 Japanese culture"
+  ],
+  "skills": [
+    {
+      "name": "",
+      "logo": ""
+    }
+  ]
 }

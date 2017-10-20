@@ -3,10 +3,10 @@
 import React from 'react';
 import NavItem from './NavItem';
 
-const CV = () => (
+const Header = () => (
   <div className="app">
-    <NavItem link="/" text="My CV" />
+    <NavItem link="/" text="About Me" />
   </div>
 );
 
-export default CV;
+export default Header;
