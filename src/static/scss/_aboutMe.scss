@@ -1,0 +1,31 @@
+section.profile-card {
+  @mixin circle($width, $border) {
+    width: $width;
+    height: $width;
+    border-radius: ($width/2) + $border;
+  }
+
+  img {
+    $image-border: 20px;
+
+    @include circle(300px, $image-border);
+
+    transform: scaleX(-1);
+    margin: 0 auto;
+    border-top: $image-border solid indigo;
+    border-bottom: $image-border solid rebeccapurple;
+    border-left: $image-border solid indigo;
+    border-right: $image-border solid rebeccapurple;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  margin-bottom: 3em;
+  text-align: center;
+}

@@ -1,13 +1,37 @@
 {
   "hobbies": [
-    "🍺 Craft beer",
-    "🥄 Homebrewing",
-    "✏️ Drawing",
-    "🍲 Food",
-    "💻 Tech",
-    "🎮 Videogames",
-    "👨‍💻 Programming",
-    "👺 Japanese culture"
+    {
+      "icon": "🍺",
+      "text": "Craft beer"
+    },
+    {
+      "icon": "🥄",
+      "text": "Homebrewing"
+    },
+    {
+      "icon": "✏️",
+      "text": "Drawing"
+    },
+    {
+      "icon": "🍲",
+      "text": "Food"
+    },
+    {
+      "icon": "💻",
+      "text": "Tech"
+    },
+    {
+      "icon": "🎮",
+      "text": "Videogames"
+    },
+    {
+      "icon": "👨‍💻",
+      "text": "Programming"
+    },
+    {
+      "icon": "👺",
+      "text": "Japanese culture"
+    }
   ],
   "skills": [
     {

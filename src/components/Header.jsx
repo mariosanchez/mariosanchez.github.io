@@ -4,9 +4,9 @@ import React from 'react';
 import NavItem from './NavItem';
 
 const Header = () => (
-  <div className="app">
+  <header className="app">
     <NavItem link="/" text="About Me" />
-  </div>
+  </header>
 );
 
 export default Header;
