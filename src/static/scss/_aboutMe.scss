@@ -1,4 +1,7 @@
-section.profile-card {
+section {
+  margin-bottom: 1em;
+}
+.profile-card {
   @mixin circle($width, $border) {
     width: $width;
     height: $width;
@@ -26,6 +29,5 @@ section.profile-card {
     margin-bottom: 0;
   }
 
-  margin-bottom: 3em;
   text-align: center;
 }
