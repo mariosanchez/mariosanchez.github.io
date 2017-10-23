@@ -1,4 +1,54 @@
 {
+  "technologies": [
+    {
+      "icon": "💪",
+      "text": "JavaScript"
+    },
+    {
+      "icon": "⚛️",
+      "text": "React"
+    },
+    {
+      "icon": "📦",
+      "text": "Webpack"
+    },
+    {
+      "icon": "🐘",
+      "text": "PHP"
+    },
+    {
+      "icon": "💚",
+      "text": "Node.js"
+    },
+    {
+      "icon": "📎",
+      "text": "HTML"
+    },
+    {
+      "icon": "🎨",
+      "text": "CSS"
+    },
+    {
+      "icon": "🐬",
+      "text": "MySQL"
+    },
+    {
+      "icon": "🍃",
+      "text": "Mongo"
+    },
+    {
+      "icon": "🎲",
+      "text": "Redis"
+    },
+    {
+      "icon": "🐳",
+      "text": "Docker"
+    },
+    {
+      "icon": "🐧",
+      "text": "Linux"
+    }
+  ],
   "hobbies": [
     {
       "icon": "🍺",
@@ -25,12 +75,12 @@
       "text": "Videogames"
     },
     {
-      "icon": "👨‍💻",
-      "text": "Programming"
-    },
-    {
       "icon": "👺",
       "text": "Japanese culture"
+    },
+    {
+      "icon": "🌌",
+      "text": "Star Wars"
     }
   ],
   "skills": [

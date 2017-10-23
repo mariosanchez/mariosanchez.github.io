@@ -12,7 +12,11 @@ const App = () => (
   <BrowserRouter>
     <div className="app">
       <Switch>
-        <Route exact path="/" component={props => <AboutMe hobbies={preload.hobbies} {...props} />} />
+        <Route
+          exact
+          path="/"
+          component={props => <AboutMe technologies={preload.technologies} hobbies={preload.hobbies} {...props} />}
+        />
         <Route component={FourOhFour} />
       </Switch>
     </div>

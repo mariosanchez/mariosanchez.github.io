@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Tag from '../components/Tag';
 
-const AboutMe = (props: { hobbies: Array<String> }) => (
+const AboutMe = (props: { technologies: Array<Object>, hobbies: Array<Object> }) => (
   <section className="">
     <Header />
     <section className="container">
@@ -22,7 +22,7 @@ const AboutMe = (props: { hobbies: Array<String> }) => (
         </section>
         <section className="col-12">
           <h2>Techs I love</h2>
-          {props.hobbies.map(hobbie => <Tag key={hobbie.icon} {...hobbie} />)}
+          {props.technologies.map(technology => <Tag key={technology.icon} {...technology} />)}
         </section>
         <section className="col-12">
           <h2>Another things I love</h2>
