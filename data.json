@@ -83,10 +83,16 @@
       "text": "Star Wars"
     }
   ],
-  "skills": [
+  "sandboxes": [
     {
-      "name": "",
-      "logo": ""
+      "id": "jz0561m75",
+      "title": "Beer Taste Guide",
+      "description": "A beer taste guide for my workmates 🙂 (for mobile)"
+    },
+    {
+      "id": "qqy01pm60w",
+      "title": "Excel",
+      "description": "Excel exercise from 'React: Up & Running: Building Web Applications' by Stoyan Stefanov"
     }
   ]
 }

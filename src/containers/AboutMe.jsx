@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Tag from '../components/Tag';
 
 const AboutMe = (props: { technologies: Array<Object>, hobbies: Array<Object> }) => (
-  <section className="">
+  <div>
     <Header />
     <section className="container">
       <div className="row">
@@ -30,6 +30,6 @@ const AboutMe = (props: { technologies: Array<Object>, hobbies: Array<Object> })
         </section>
       </div>
     </section>
-  </section>
+  </div>
 );
 export default AboutMe;

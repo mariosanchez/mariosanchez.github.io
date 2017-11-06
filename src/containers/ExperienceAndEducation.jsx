@@ -3,12 +3,12 @@
 import React from 'react';
 import Header from '../components/Header';
 
-const AboutMe = () => (
-  <section className="">
+const ExperienceAndEducation = () => (
+  <div>
     <Header />
     <section className="container">
       <div className="row">Test</div>
     </section>
-  </section>
+  </div>
 );
-export default AboutMe;
+export default ExperienceAndEducation;

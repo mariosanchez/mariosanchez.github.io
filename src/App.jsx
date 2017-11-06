@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import preload from '../data.json';
 import AboutMe from './containers/AboutMe';
 import ExperienceAndEducation from './containers/ExperienceAndEducation';
+import CodeSandbox from './containers/CodeSandbox';
 import './static/scss/main.scss';
 
 const FourOhFour = () => <h1>404</h1>;
@@ -19,6 +20,11 @@ const App = () => (
           component={props => <AboutMe technologies={preload.technologies} hobbies={preload.hobbies} {...props} />}
         />
         <Route exact path="/experience-and-education" component={ExperienceAndEducation} />
+        <Route
+          exact
+          path="/codesandbox"
+          component={props => <CodeSandbox sandboxes={preload.sandboxes} {...props} />}
+        />
         <Route component={FourOhFour} />
       </Switch>
     </div>
